@@ -1,10 +1,8 @@
-package MySorting;
-
 class InsertionSort
 {
 	public void sort(int arr[])
 	{
-		for(int i=1;i>=arr.length;i++)
+		for(int i=1;i<arr.length;i++)
 		{
 			int j=i-1;
 			int key = arr[i];

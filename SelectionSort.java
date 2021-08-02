@@ -1,5 +1,3 @@
-package MySorting;
-
 class SelectionSort
 {
 	public void sort(int arr[])
